@@ -1,0 +1,13 @@
+.hero-container {
+  width: 100%; }
+
+.logo-container {
+  width: 100%;
+  background-image: url("../img/portfolio-img.jpg");
+  background-size: cover;
+  background-color: rgba(180, 73, 34, 0.22);
+  height: 40vh;
+  max-height: 40em;
+  display: flex;
+  align-items: center;
+}
