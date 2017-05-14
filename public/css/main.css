@@ -1,3 +1,14 @@
+html {
+  height:100%;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  margin:0;
+}
+
 .hero-container {
   width: 100%;
 }
@@ -9,4 +20,21 @@
   background-color: #4590C9;
   height: 70vh;
   max-height: 700px;
+}
+
+.header-nav {
+  background-color: #251228;
+  text-align: center;
+  text-transform: uppercase;
+  min-height: 50px;
+  position: sticky;
+  top: -10px;
+  z-index: 100;
+}
+
+.header-nav .nav-link {
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 20px;
+  color: #fff;
 }
