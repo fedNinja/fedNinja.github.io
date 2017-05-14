@@ -8,7 +8,5 @@
   background-size: cover;
   background-color: rgba(180, 73, 34, 0.22);
   height: 40vh;
-  max-height: 40em;
-  display: flex;
-  align-items: center;
+  max-height: 500px;
 }
