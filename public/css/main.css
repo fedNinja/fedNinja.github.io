@@ -6,7 +6,7 @@
   width: 100%;
   background-image: url("../img/portfolio_sf.jpg");
   background-size: cover;
-  background-color: rgba(180, 73, 34, 0.22);
-  height: 40vh;
-  max-height: 500px;
+  background-color: #4590C9;
+  height: 70vh;
+  max-height: 700px;
 }
