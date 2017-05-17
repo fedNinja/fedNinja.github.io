@@ -5,28 +5,42 @@
 }
 
 html {
-  height:100%;
+	font-family: 'Open Sans', sans-serif;
+	color: #2a2a2a;
 }
 
 body {
   margin:0;
+  background-color: rgb(213, 216, 218);
 }
 
 .hero-container {
   width: 100%;
 }
 
+.outer-container{
+  width: 100%;
+  background-color: #4a251f;
+}
 .logo-container {
   width: 100%;
-  background-image: url("../img/portfolio_sf.jpg");
+  background-image: url("../img/goldengate.jpg");
   background-size: cover;
   background-color: #4590C9;
   height: 70vh;
   max-height: 700px;
 }
 
+.logo-container h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
+  text-align: right;
+  padding: 30px;
+  color: #fff;
+}
+
 .header-nav {
-  background-color: #251228;
+  background-color: #4a251f;
   text-align: center;
   text-transform: uppercase;
   min-height: 50px;
@@ -35,9 +49,27 @@ body {
   z-index: 100;
 }
 
+.nav-menu {
+  padding-top: 10px;
+}
+
+.menu-inline {
+  display: inline;
+}
+
 .header-nav .nav-link {
-  margin-top: 20px;
-  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
   padding: 20px;
+  text-decoration: none;
   color: #fff;
+}
+
+.about-container {
+  padding-top: 20px;
+}
+
+.img-style {
+  height: auto;
+  width: 100%;
+  border-radius: 50%;
 }
