@@ -24,11 +24,16 @@ body {
 }
 .logo-container {
   width: 100%;
-  background-image: url("../img/goldengate.jpg");
-  background-size: cover;
+  background-image: url("../img/sf_header.jpg");
   background-color: #4590C9;
-  height: 70vh;
+  height: 100vh;
   max-height: 700px;
+  text-align: center;
+  /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .logo-container h1 {
@@ -36,7 +41,11 @@ body {
   font-size: 70px;
   text-align: right;
   padding: 30px;
-  color: #fff;
+  color: #000;
+}
+
+.name-style {
+  margin-top: 200px;
 }
 
 .header-nav {
@@ -65,11 +74,34 @@ body {
 }
 
 .about-container {
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .img-style {
   height: auto;
   width: 100%;
-  border-radius: 50%;
+}
+
+.line-break {
+  padding-top:10px;
+}
+
+#projects {
+  text-align: center;
+  background-image: url("../img/bg-banner.svg");
+  background-size: cover;
+  padding-bottom: 30px;
+  margin-top: 50px; }
+}
+
+.imgDivContainer {
+  background: url("../img/gullak-landingpage-screenshot.png") no-repeat center center;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+              box-shadow: 3px 3px 5px 6px #ccc;
+              border-style: none;
+              margin-left: 50px;
+              width: 100%;
 }
