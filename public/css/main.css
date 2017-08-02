@@ -81,6 +81,7 @@ body {
   height: auto;
   width: 100%;
   border-radius: 50%;
+  border:6px solid lightblue;
 }
 
 .line-break {
@@ -89,7 +90,7 @@ body {
 
 #projects {
   text-align: center;
-  margin-top: 50px; 
+  margin-top: 50px;
 }
 
 .imgDivContainer {
