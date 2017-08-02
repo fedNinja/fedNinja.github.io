@@ -80,6 +80,7 @@ body {
 .img-style {
   height: auto;
   width: 100%;
+  border-radius: 50%;
 }
 
 .line-break {
@@ -88,9 +89,6 @@ body {
 
 #projects {
   text-align: center;
-  background-image: url("../img/bg-banner.svg");
-  background-size: cover;
-  padding-bottom: 30px;
   margin-top: 50px; }
 }
 
