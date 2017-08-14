@@ -24,7 +24,9 @@ body {
 }
 .logo-container {
   width: 100%;
-  background-image: url("../img/sf_header.jpg");
+  /*background-image: url("../img/sf_header.jpg");*/
+  background: linear-gradient(to right, transparent, #fff),
+      url("../img/sf_header.jpg");
   background-color: #4590C9;
   height: 100vh;
   max-height: 700px;
@@ -79,18 +81,24 @@ body {
 
 .img-style {
   height: auto;
-  width: 100%;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  border:6px solid lightblue;
+  border:6px solid #e2b7b8;
 }
 
 .line-break {
   padding-top:10px;
 }
 
-#projects {
+.projects {
+  padding: 60px 0 25px;
+  font-size: 26px;
+  line-height: 34px;
+  color: #3b3747;
   text-align: center;
-  margin-top: 50px;
+  font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 400;
 }
 
 .imgDivContainer {
@@ -103,4 +111,85 @@ body {
               border-style: none;
               margin-left: 50px;
               width: 100%;
+}
+
+.card {
+    border-radius: 8px 8px 8px 8px;
+    transition: all .27s;
+    border: 1px solid #f1f4f7;
+    width: 90%;
+    height: 100%;
+    min-height: 400px;
+    display: block;
+    padding: 24px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.space-bottom {
+  margin-bottom:50px;
+}
+
+.project-desc {
+  height: 80%;
+}
+
+.circle {
+  width: 72px;
+  height: 72px;
+  background: #e2b7b8;
+  border-radius: 50%;
+  padding: 12px 6px 0px 7px;
+  margin: 0 auto 12px auto;
+}
+
+.circle i {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.bg-desc h3 {
+  font-size: 22px;
+  color: #cb9798;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 8px 16px;
+  font-size: 17px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #e2b7b8;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #cb9798;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #ce7072;
+}
+
+.btn-secondary:hover {
+  background-color: #ce7072;
+}
+
+.bg-desc>p:last-child {
+font-size: .8em;
+color: #555;
+}
+
+.bg-desc p {
+  color: #7b7b7b;
+  font-size: 18px;
 }
