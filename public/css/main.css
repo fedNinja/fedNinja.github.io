@@ -22,6 +22,11 @@ body {
   width: 100%;
   background-color: #4a251f;
 }
+
+.headshot-container {
+  margin: 0 auto;
+}
+
 .logo-container {
   width: 100%;
   /*background-image: url("../img/sf_header.jpg");*/
@@ -79,10 +84,14 @@ body {
   padding-top: 50px;
 }
 
+.about-content {
+  text-align: center;
+}
+
 .img-style {
   height: auto;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   border:6px solid #e2b7b8;
 }
@@ -184,7 +193,7 @@ body {
   background-color: #ce7072;
 }
 
-.bg-desc>p:last-child {
+.bg-desc p span {
 font-size: .8em;
 color: #555;
 }
@@ -192,4 +201,16 @@ color: #555;
 .bg-desc p {
   color: #7b7b7b;
   font-size: 18px;
+}
+
+footer {
+  min-height: 50px;
+  background-color: #cb9798;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+footer span i {
+  color: red;
 }
