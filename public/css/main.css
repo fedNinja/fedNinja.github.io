@@ -29,7 +29,6 @@ body {
 
 .logo-container {
   width: 100%;
-  /*background-image: url("../img/sf_header.jpg");*/
   background: linear-gradient(to right, transparent, #fff),
       url("../img/sf_header.jpg");
   background-color: #4590C9;
