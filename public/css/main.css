@@ -40,14 +40,27 @@ body {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   padding-top:15%;
 }
 
-.logo-container h1 {
-  font-family: 'Permanent Marker', cursive;
-  font-size: 70px;
-  text-align: right;
-  padding: 30px;
+.text-container {
+  width: 50%;
+  border: 20px solid #000;
+  margin: 0 auto;
   color: #000;
+  text-align: center;
+  padding: 1em;
+}
+
+.text-container h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  line-height: 1em;
+}
+
+.text-container h2 {
+  font-size: 1.5em;
+  padding: 1em;
 }
 
 .name-style {
